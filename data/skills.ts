@@ -13,32 +13,28 @@ export interface ToolGroup {
 /* ─── SKILLS by category ───────────────────── */
 export const SKILL_GROUPS: SkillGroup[] = [
   {
-    group: 'Languages',
-    skills: ['TypeScript', 'Python', 'C++', 'C#', 'SQL', 'Go', 'GDScript', 'MATLAB'],
+    group: 'GIS & Spatial Analysis',
+    skills: ['Esri ArcGIS', 'ArcGIS Online', 'QGIS', 'GTFS Data', 'Isochrone Analysis', 'Spatial Data'],
   },
   {
-    group: 'Web & Backend',
-    skills: ['React', 'Next.js', 'Node.js', 'Express', 'PostgreSQL', 'Redis', 'Docker', 'REST APIs'],
+    group: 'Architecture & 3D',
+    skills: ['Revit', 'Blender', 'Autodesk ArtCAM', '3D Modelling', 'Architectural Documentation'],
   },
   {
-    group: 'Game Development',
-    skills: ['Unity', 'Godot', 'Game Design', 'Tilemap Systems', 'Procedural Generation', 'Shaders'],
+    group: 'Data Analysis & Visualisation',
+    skills: ['Tableau', 'Python', 'R', 'Excel', 'KPI Dashboards', 'Campaign Analytics'],
   },
   {
-    group: '3D & Digital Art',
-    skills: ['Blender', 'ZBrush', 'Hard Surface Modeling', 'UV Unwrapping', 'PBR Texturing', 'Rigging'],
+    group: 'Programming',
+    skills: ['Python', 'R', 'C++'],
   },
   {
-    group: '2D & Motion',
-    skills: ['Photoshop', 'Illustrator', 'After Effects', 'Figma', 'Procreate', 'Motion Graphics'],
+    group: 'Design & Media',
+    skills: ['Adobe Creative Suite', 'Canva', 'Branding', 'Print Design'],
   },
   {
-    group: 'GIS & Spatial',
-    skills: ['QGIS', 'ArcGIS', 'GeoPandas', 'PostGIS', 'Mapbox GL', 'Leaflet.js', 'Spatial Analysis'],
-  },
-  {
-    group: 'AES & Technical',
-    skills: ['CAD Software', 'Technical Documentation', 'Simulation', 'Data Analysis', 'LaTeX'],
+    group: 'Productivity & Office',
+    skills: ['Microsoft Office', 'Technical Documentation', 'Data Management'],
   },
 ]
 
@@ -62,27 +58,21 @@ export interface TimelineEntry {
 /* ✏️ EDIT: Add your experience/education history */
 export const TIMELINE: TimelineEntry[] = [
   {
-    year:        '2025 — Now',
-    title:       'Role Title',
-    org:         'Organization Name',
-    description: 'Brief description of what you did/do here. Keep it to 1-2 sentences.',
+    year:        'Aug 2025 — Present',
+    title:       'B.S. Urban Technology',
+    org:         'University of Michigan, Ann Arbor',
+    description: 'Minors in Civil Engineering and Computer Science. GPA: 3.8. Focused on transportation planning, geospatial analysis, and urban data systems.',
   },
   {
-    year:        '2024',
-    title:       'Another Role or Achievement',
-    org:         'Another Org',
-    description: 'Brief description of this experience.',
+    year:        'Mar 2025 — Jan 2026',
+    title:       'Data Visualization Intern',
+    org:         'Rochester Institute of Technology / Excelerate',
+    description: 'Built Tableau and Python dashboards tracking 15+ KPIs, reducing stakeholder reporting time by 40%. Identified 23% budget waste across a 6-month marketing campaign.',
   },
   {
-    year:        '2023',
-    title:       'Education or Project',
-    org:         'University / Platform',
-    description: 'What you studied, built, or accomplished.',
-  },
-  {
-    year:        '2022',
-    title:       'Earlier Experience',
-    org:         'Organization',
-    description: 'How you got started in this field.',
+    year:        'Aug 2021 — Present',
+    title:       'Youth Coordinator',
+    org:         'BAPS Charities — Lowell, MA & Canton, MI',
+    description: 'Directed weekly programming for 50+ students and led planning for 12+ annual events with up to 400 attendees. Designed visual branding using Adobe Creative Suite and Autodesk ArtCAM.',
   },
 ]

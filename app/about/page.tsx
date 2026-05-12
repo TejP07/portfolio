@@ -32,19 +32,19 @@ export default function AboutPage() {
           <p className="text-text font-body text-lg leading-relaxed">
             Hi, I&apos;m{' '}
             <span className="text-accent font-semibold">Tej Patel</span>
-            — a software engineer, game developer, and digital artist passionate
-            about building things that sit at the intersection of technology and
-            creativity.
+            {' '}— an Urban Technology student at the University of Michigan
+            with a focus on transportation planning, GIS, and the built environment.
           </p>
           <p className="text-text-muted font-body text-base leading-relaxed">
-            I work across a wide range of disciplines: writing production-quality
-            code, designing game systems, creating 2D illustrations and motion
-            graphics, modeling 3D environments, and building geospatial tools.
+            I work at the intersection of spatial data, design, and technology:
+            conducting geospatial analysis with ArcGIS and QGIS, building data
+            visualisations that surface patterns in cities and infrastructure, and
+            producing 3D architectural documentation with Revit and Blender.
           </p>
           <p className="text-text-muted font-body text-base leading-relaxed">
-            Whether it&apos;s shipping a web app, designing a level, or rendering a
-            photorealistic scene — I care about craft, detail, and the overall
-            experience.
+            I&apos;m drawn to problems where data meets place — mapping transit equity,
+            visualising rail corridors, or rendering architectural proposals. I care
+            about precision, visual clarity, and work that has real-world impact.
           </p>
 
           {/* Resume download */}
@@ -69,11 +69,8 @@ export default function AboutPage() {
           className="lg:col-span-2"
         >
           {/* ✏️ EDIT: Replace with <img src="/your-photo.jpg" ... /> */}
-          <div className="aspect-square rounded-2xl bg-bg-secondary border border-black/[0.07] flex flex-col items-center justify-center gap-3 text-text-faint">
-            <User size={48} strokeWidth={1} />
-            <span className="text-xs font-mono text-text-faint">
-              your-photo.jpg
-            </span>
+          <div className="aspect-square p-3 bg-bg border border-black/[0.15] rounded-sm">
+            <img src="/profile.png" alt="Tej Patel" className="w-full h-full object-cover" />
           </div>
         </motion.div>
       </div>
